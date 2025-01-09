@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-02T23:20:58 IST" name="Surefire suite" finished-at="2025-01-02T23:21:49 IST" duration-ms="50424">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:SeleniumTestNGFrameWork.tests.SubmitOrderTest@1afd44cb]" name="submitOrder" class="SeleniumTestNGFrameWork.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+      <group name="ErrorHanding">
+        <method signature="ErrorValidationTest.loginErrorValidation()[pri:0, instance:SeleniumTestNGFrameWork.tests.ErrorValidationTest@5f058f00]" name="loginErrorValidation" class="SeleniumTestNGFrameWork.tests.ErrorValidationTest"/>
+      </group> <!-- ErrorHanding -->
+    </groups>
+    <test started-at="2025-01-02T23:20:58 IST" name="Surefire test" finished-at="2025-01-02T23:21:49 IST" duration-ms="50424">
+      <class name="SeleniumTestNGFrameWork.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumTestNGFrameWork.tests.SubmitOrderTest@1afd44cb]" started-at="2025-01-02T23:21:18 IST" name="launchApplication" finished-at="2025-01-02T23:21:20 IST" duration-ms="1968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:SeleniumTestNGFrameWork.tests.SubmitOrderTest@1afd44cb]" started-at="2025-01-02T23:21:20 IST" name="submitOrder" data-provider="getData" finished-at="2025-01-02T23:21:30 IST" duration-ms="10110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Aashu@123456, product=ADIDAS ORIGINAL, email=nehakumari1997@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTestNGFrameWork.tests.SubmitOrderTest@1afd44cb]" started-at="2025-01-02T23:21:30 IST" name="tearDown" finished-at="2025-01-02T23:21:30 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumTestNGFrameWork.tests.SubmitOrderTest@1afd44cb]" started-at="2025-01-02T23:21:30 IST" name="launchApplication" finished-at="2025-01-02T23:21:33 IST" duration-ms="2256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:SeleniumTestNGFrameWork.tests.SubmitOrderTest@1afd44cb]" started-at="2025-01-02T23:21:33 IST" name="submitOrder" data-provider="getData" finished-at="2025-01-02T23:21:42 IST" duration-ms="9574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Jagruti@123, product=IPHONE 13 PRO, email=jagruti@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTestNGFrameWork.tests.SubmitOrderTest@1afd44cb]" started-at="2025-01-02T23:21:42 IST" name="tearDown" finished-at="2025-01-02T23:21:42 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumTestNGFrameWork.tests.SubmitOrderTest@1afd44cb]" started-at="2025-01-02T23:21:42 IST" name="launchApplication" finished-at="2025-01-02T23:21:48 IST" duration-ms="5281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryPage()[pri:0, instance:SeleniumTestNGFrameWork.tests.SubmitOrderTest@1afd44cb]" started-at="2025-01-02T23:21:48 IST" name="orderHistoryPage" finished-at="2025-01-02T23:21:49 IST" depends-on-methods="SeleniumTestNGFrameWork.tests.SubmitOrderTest.submitOrder" duration-ms="913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTestNGFrameWork.tests.SubmitOrderTest@1afd44cb]" started-at="2025-01-02T23:21:49 IST" name="tearDown" finished-at="2025-01-02T23:21:49 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumTestNGFrameWork.tests.SubmitOrderTest -->
+      <class name="SeleniumTestNGFrameWork.tests.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumTestNGFrameWork.tests.ErrorValidationTest@5f058f00]" started-at="2025-01-02T23:20:58 IST" name="launchApplication" finished-at="2025-01-02T23:21:04 IST" duration-ms="5480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:SeleniumTestNGFrameWork.tests.ErrorValidationTest@5f058f00]" started-at="2025-01-02T23:21:04 IST" name="loginErrorValidation" finished-at="2025-01-02T23:21:05 IST" duration-ms="1486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTestNGFrameWork.tests.ErrorValidationTest@5f058f00]" started-at="2025-01-02T23:21:05 IST" name="tearDown" finished-at="2025-01-02T23:21:06 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumTestNGFrameWork.tests.ErrorValidationTest@5f058f00]" started-at="2025-01-02T23:21:06 IST" name="launchApplication" finished-at="2025-01-02T23:21:08 IST" duration-ms="2686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:SeleniumTestNGFrameWork.tests.ErrorValidationTest@5f058f00]" started-at="2025-01-02T23:21:08 IST" name="productErrorValidation" finished-at="2025-01-02T23:21:17 IST" duration-ms="8610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTestNGFrameWork.tests.ErrorValidationTest@5f058f00]" started-at="2025-01-02T23:21:17 IST" name="tearDown" finished-at="2025-01-02T23:21:17 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumTestNGFrameWork.tests.ErrorValidationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
